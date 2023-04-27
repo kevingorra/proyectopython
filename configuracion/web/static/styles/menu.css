@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+:root{
+    --color-main: red;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+.sidebar{
+    width: 280px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;   
+    padding: 1rem;
+     background-color: var(--color-main); 
+    color: #fff;
+    
+}
+
+.brand-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand-icons span {
+    font-size: 1.5rem;
+    margin-left: .5rem;
+}
+.sidebar-user{
+    top: 0;
+    text-align: center;
+    padding: 0;
+
+}
+.sidebar-user img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border-left: 3px solid #efefef;
+    border-right: 3px solid #efefef;
+    border-top: transparent;
+    border-bottom: transparent;
+}
+
+.sidebar-menu{
+    margin-top: 2rem;
+}
+.menu-head{
+    text-transform: uppercase;
+    color: #2eaf35;
+    font-size: .8rem;
+    font-weight: 500;
+    margin-bottom: .5rem;
+    font-size: 16px;
+    font-weight: bold;
+}
+.sidebar-menu ul{
+    margin-bottom: 1.5rem;
+    padding-left: 0;
+
+}
+.sidebar-menu li{
+    margin-bottom: .8rem;
+    display: flex;
+    align-items: center;
+}
+.sidebar-menu li a {
+    color: #efefef;
+}
+.sidebar-menu li a span{
+   font-size: 1.5rem;
+   display: inline-block;
+   margin-right: 1rem;
+}

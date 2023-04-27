@@ -1,0 +1,115 @@
+header{
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding: 5px;
+
+}
+.main-content{
+    margin-left: 280px;
+}
+
+.titulo-menu{
+   margin: 0;
+}
+.menu-toggle label{
+    height: 60px;
+    width: 60px;
+    display: grid;
+    place-items: center;
+    font-size: 2.5rem;
+    border-radius: 50%;
+}
+.menu-toggle label:hover{
+  background: #efefef;
+  
+
+}
+.header-icons span{
+     display: inline-block;
+     margin-left: .7rem;
+     font-size: 2rem;
+}
+main{
+
+    padding: 1.5rem;
+    background: #f1f5f9;
+    margin: .5rem;
+    min-height: 90vh;
+}
+.page-header{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.header-actions button{
+    outline: none;
+    color: #ffff;
+    background: #000000;
+    border: none;
+    padding: .6rem 1rem;
+    margin-left: .1rem;
+    border-radius: 3px;
+    font-weight: 600;
+}
+.header-actions button span{
+    font-size: 1.2rem;
+    margin-right: .6rem;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 3rem;
+    margin-top: 2rem;
+}
+
+.card-single{
+    background: #ffff;
+    padding: 1rem;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
+    border-radius: 2px;
+}
+.card-flex{
+    display: grid;
+    grid-template-columns: 70% auto;
+}
+
+.card-head span{
+    display: block;
+    text-transform: uppercase;
+    color: #555;
+    font-size: .9rem;
+
+}
+.card-head small{
+    font-weight: 600;
+    color: #555;
+
+}
+.card-info h2{
+    font-size: 2.2rem;
+    display: flex;
+   
+    color:#333
+}
+.card-chart span{
+    font-size: 2rem;
+}
+.card-chart.success span{
+    color: seagreen;
+
+}
+.card-chart.danger span{
+    color: rgb(243, 0, 0);
+  
+
+}
+.card-chart.yellow span{
+    color:dodgerblue;
+
+}
+.hola{
+    color: red;
+    background-color: red;
+}
